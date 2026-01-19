@@ -1,0 +1,347 @@
+{
+  "info": {
+    "_postman_id": "534c443f-5fb2-4720-9a91-5974d671346a",
+    "name": "DocSpace",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "23151277",
+    "_collection_link": "https://go.postman.co/collection/23151277-534c443f-5fb2-4720-9a91-5974d671346a?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "https://sshakndr.onlyoffice.com/api/2.0/authentication",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"UserName\":\"whenbored777@gmail.com\",\r\n    \"Password\":\"Sasha1006\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://sshakndr.onlyoffice.com/api/2.0/authentication",
+          "protocol": "https",
+          "host": [
+            "sshakndr",
+            "onlyoffice",
+            "com"
+          ],
+          "path": [
+            "api",
+            "2.0",
+            "authentication"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "https://sshakndr.onlyoffice.com/api/2.0/authentication",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"UserName\":\"whenbored777@gmail.com\",\r\n    \"Password\":\"Sasha1006\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://sshakndr.onlyoffice.com/api/2.0/authentication",
+              "protocol": "https",
+              "host": [
+                "sshakndr",
+                "onlyoffice",
+                "com"
+              ],
+              "path": [
+                "api",
+                "2.0",
+                "authentication"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Server",
+              "value": "openresty/1.27.1.1"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 10 Apr 2025 07:21:08 GMT"
+            },
+            {
+              "key": "Set-Cookie",
+              "value": "asc_auth_key=DtJDDVdbh1ynfAD7V8%2FwxsLVCB0HpwyrQUMjywNQDukRevxZvgC%2Bud8KiJgKUmOnzXYJh7CqPzCakDAvHWPS4UNcVKeHXmHt4S%2FMQDzHwuL1ufZovD%2F0nSX7OSoKZRlqgx22uJCcbyp%2Fc%2B7Jmup12ki%2FX2nqhDfL5WV0GGnOuZI%3D; expires=Fri, 10 Apr 2026 07:21:08 GMT; path=/; secure; samesite=none; httponly"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "key": "X-Cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "key": "Via",
+              "value": "1.1 4719066e73f795d5204033c96dd0829a.cloudfront.net (CloudFront)"
+            },
+            {
+              "key": "X-Amz-Cf-Pop",
+              "value": "IAD61-P8"
+            },
+            {
+              "key": "Alt-Svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "key": "X-Amz-Cf-Id",
+              "value": "LEDtS5l-a4QmrL3ntNyXkJMUnPSad1wy0HGz7WB6emcaBvCF04YjDA=="
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=63072000; includeSubDomains; preload"
+            },
+            {
+              "key": "Vary",
+              "value": "Origin"
+            },
+            {
+              "key": "Server-Timing",
+              "value": "cdn-upstream-layer;desc=\"REC\",cdn-upstream-dns;dur=3,cdn-upstream-connect;dur=92,cdn-upstream-fbl;dur=242,proxy-request-time;dur=55,cdn-cache-miss,cdn-pop;desc=\"IAD61-P8\",cdn-rid;desc=\"LEDtS5l-a4QmrL3ntNyXkJMUnPSad1wy0HGz7WB6emcaBvCF04YjDA==\",cdn-downstream-fbl;dur=260,aspnetcore-request-time;dur=54ms"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"response\": {\n        \"token\": \"DtJDDVdbh1ynfAD7V8/wxsLVCB0HpwyrQUMjywNQDukRevxZvgC+ud8KiJgKUmOnzXYJh7CqPzCakDAvHWPS4UNcVKeHXmHt4S/MQDzHwuL1ufZovD/0nSX7OSoKZRlqgx22uJCcbyp/c+7Jmup12ki/X2nqhDfL5WV0GGnOuZI=\",\n        \"expires\": \"2026-04-10T07:21:08.7705649Z\",\n        \"sms\": false,\n        \"tfa\": false\n    },\n    \"count\": 1,\n    \"links\": [\n        {\n            \"href\": \"https://sshakndr.onlyoffice.com/api/2.0/authentication\",\n            \"action\": \"POST\"\n        }\n    ],\n    \"status\": 0,\n    \"statusCode\": 200\n}"
+        }
+      ]
+    },
+    {
+      "name": "https://sshakndr.onlyoffice.com/api/2.0/authentication Copy",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"UserName\":\"whenbored777@gmail.com\",\r\n    \"Password\":\"Sasha1006\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://sshakndr.onlyoffice.com/api/2.0/authentication",
+          "protocol": "https",
+          "host": [
+            "sshakndr",
+            "onlyoffice",
+            "com"
+          ],
+          "path": [
+            "api",
+            "2.0",
+            "authentication"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "https://sshakndr.onlyoffice.com/api/2.0/authentication",
+          "originalRequest": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n    \"UserName\":\"whenbored777@gmail.com\",\r\n    \"Password\":\"Sasha1006\"\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "https://sshakndr.onlyoffice.com/api/2.0/authentication",
+              "protocol": "https",
+              "host": [
+                "sshakndr",
+                "onlyoffice",
+                "com"
+              ],
+              "path": [
+                "api",
+                "2.0",
+                "authentication"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": "json",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "Transfer-Encoding",
+              "value": "chunked"
+            },
+            {
+              "key": "Connection",
+              "value": "keep-alive"
+            },
+            {
+              "key": "Server",
+              "value": "openresty/1.27.1.1"
+            },
+            {
+              "key": "Date",
+              "value": "Thu, 10 Apr 2025 07:21:08 GMT"
+            },
+            {
+              "key": "Set-Cookie",
+              "value": "asc_auth_key=DtJDDVdbh1ynfAD7V8%2FwxsLVCB0HpwyrQUMjywNQDukRevxZvgC%2Bud8KiJgKUmOnzXYJh7CqPzCakDAvHWPS4UNcVKeHXmHt4S%2FMQDzHwuL1ufZovD%2F0nSX7OSoKZRlqgx22uJCcbyp%2Fc%2B7Jmup12ki%2FX2nqhDfL5WV0GGnOuZI%3D; expires=Fri, 10 Apr 2026 07:21:08 GMT; path=/; secure; samesite=none; httponly"
+            },
+            {
+              "key": "Content-Encoding",
+              "value": "gzip"
+            },
+            {
+              "key": "X-Cache",
+              "value": "Miss from cloudfront"
+            },
+            {
+              "key": "Via",
+              "value": "1.1 4719066e73f795d5204033c96dd0829a.cloudfront.net (CloudFront)"
+            },
+            {
+              "key": "X-Amz-Cf-Pop",
+              "value": "IAD61-P8"
+            },
+            {
+              "key": "Alt-Svc",
+              "value": "h3=\":443\"; ma=86400"
+            },
+            {
+              "key": "X-Amz-Cf-Id",
+              "value": "LEDtS5l-a4QmrL3ntNyXkJMUnPSad1wy0HGz7WB6emcaBvCF04YjDA=="
+            },
+            {
+              "key": "Strict-Transport-Security",
+              "value": "max-age=63072000; includeSubDomains; preload"
+            },
+            {
+              "key": "Vary",
+              "value": "Origin"
+            },
+            {
+              "key": "Server-Timing",
+              "value": "cdn-upstream-layer;desc=\"REC\",cdn-upstream-dns;dur=3,cdn-upstream-connect;dur=92,cdn-upstream-fbl;dur=242,proxy-request-time;dur=55,cdn-cache-miss,cdn-pop;desc=\"IAD61-P8\",cdn-rid;desc=\"LEDtS5l-a4QmrL3ntNyXkJMUnPSad1wy0HGz7WB6emcaBvCF04YjDA==\",cdn-downstream-fbl;dur=260,aspnetcore-request-time;dur=54ms"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"response\": {\n        \"token\": \"DtJDDVdbh1ynfAD7V8/wxsLVCB0HpwyrQUMjywNQDukRevxZvgC+ud8KiJgKUmOnzXYJh7CqPzCakDAvHWPS4UNcVKeHXmHt4S/MQDzHwuL1ufZovD/0nSX7OSoKZRlqgx22uJCcbyp/c+7Jmup12ki/X2nqhDfL5WV0GGnOuZI=\",\n        \"expires\": \"2026-04-10T07:21:08.7705649Z\",\n        \"sms\": false,\n        \"tfa\": false\n    },\n    \"count\": 1,\n    \"links\": [\n        {\n            \"href\": \"https://sshakndr.onlyoffice.com/api/2.0/authentication\",\n            \"action\": \"POST\"\n        }\n    ],\n    \"status\": 0,\n    \"statusCode\": 200\n}"
+        }
+      ]
+    },
+    {
+      "name": "https://sshakndr.onlyoffice.com/api/2.0/files/881058/file",
+      "request": {
+        "auth": {
+          "type": "bearer"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"postman\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://sshakndr.onlyoffice.com/api/2.0/files/881058/file",
+          "protocol": "https",
+          "host": [
+            "sshakndr",
+            "onlyoffice",
+            "com"
+          ],
+          "path": [
+            "api",
+            "2.0",
+            "files",
+            "881058",
+            "file"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "create session",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"title\": \"postman\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://sshakndr.onlyoffice.com/api/2.0/files/folder/881058",
+          "protocol": "https",
+          "host": [
+            "sshakndr",
+            "onlyoffice",
+            "com"
+          ],
+          "path": [
+            "api",
+            "2.0",
+            "files",
+            "folder",
+            "881058"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
