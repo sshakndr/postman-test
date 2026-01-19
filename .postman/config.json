@@ -1,0 +1,10 @@
+{
+  "schemaVersion": "1",
+  "workspace": {
+    "id": "338b04ba-9685-4f23-8835-0fbb02db4639"
+  },
+  "entities": {
+    "collections": ["../DocSpace.postman_collection.json"],
+    "environments": []
+  }
+}
