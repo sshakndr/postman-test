@@ -11,11 +11,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Run Postman Collection Tests
-        uses: postmanlabs/postman-cli-action@v1
-        with:
-          command: 'collection run <YOUR_COLLECTION_ID_OR_PATH>'
-          api-key: ${{ secrets.POSTMAN_API_KEY }}
+      # - name: Run Postman Collection Tests
+      #   uses: postmanlabs/postman-cli-action@v1
+      #   with:
+      #     command: 'collection run <COLLECTION_ID_OR_PATH>'
+      #     api-key: ${{ secrets.POSTMAN_API_KEY }}
 
       - name: Prepare Workspace Files
         uses: postmanlabs/postman-cli-action@v1
