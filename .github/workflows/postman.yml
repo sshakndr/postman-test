@@ -20,7 +20,7 @@ jobs:
       - name: Prepare Workspace Files
         uses: postmanlabs/postman-cli-action@v1
         with:
-          command: 'workspace prepare && workspace push --yes'
+          command: 'workspace prepare && postman workspace push --yes'
           api-key: ${{ secrets.POSTMAN_API_KEY }}
 
       # - name: Push Changes to Postman Workspace
