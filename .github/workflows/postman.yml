@@ -13,7 +13,8 @@ jobs:
 
       - name: Install Postman CLI
         run: |
-          npm install -g @postman/cli
+          curl -o- "https://dl-cli.pstmn.io/install/linux64.sh" | sh
+          echo "$HOME/.postman/bin" >> $GITHUB_PATH
 
       - name: Login to Postman
         run: |
