@@ -23,14 +23,14 @@ jobs:
           command: 'workspace prepare'
           api-key: ${{ secrets.POSTMAN_API_KEY }}
 
-      - name: Push Changes to Postman Workspace
-        uses: postmanlabs/postman-cli-action@v1
-        with:
-          command: 'workspace push --yes'
-          api-key: ${{ secrets.POSTMAN_API_KEY }}
-
       - name: Debug - List workspaces
         uses: postmanlabs/postman-cli-action@v1
         with:
           command: 'workspace ls'
+          api-key: ${{ secrets.POSTMAN_API_KEY }}
+
+      - name: Push Changes to Postman Workspace
+        uses: postmanlabs/postman-cli-action@v1
+        with:
+          command: 'workspace push --yes'
           api-key: ${{ secrets.POSTMAN_API_KEY }}
