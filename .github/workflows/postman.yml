@@ -28,4 +28,9 @@ jobs:
         with:
           command: 'workspace push --yes'
           api-key: ${{ secrets.POSTMAN_API_KEY }}
-          region: eu
+
+      - name: Debug - List workspaces
+        uses: postmanlabs/postman-cli-action@v1
+        with:
+          command: 'workspace ls'
+          api-key: ${{ secrets.POSTMAN_API_KEY }}
